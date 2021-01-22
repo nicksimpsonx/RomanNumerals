@@ -5,7 +5,7 @@ This is my first attempt at the roman numeral coding kata, I decided to do this 
 
 The objective is to be able to accept a string and convert the string into it's decimal equivalent. I wanted to do this because a friend of mine told me that he was given this kata to do in a job interview and found it tricky, I was interested to see whether using a TDD approach would help with creating a nice algorithm. This is what I ended up with after about an hour.
 
-##Kata Details
+## Kata Details
 
 Check out the kata here if you want a go: https://codingdojo.org/kata/RomanCalculator/
 
