@@ -9,6 +9,7 @@ import java.util.List;
  * @https://codingdojo.org/kata/RomanCalculator/
  * Contains functionality to convert a given roman numeral string into its decimal equivalent
  * @author Nick Simpson
+ * @since 1.8
  * @implNote I did this Kata on 22nd January 2021 during madetech learn tech afternoon using a TDD approach to allow the
  * tests to drive the development of the algorithm.
  */
@@ -30,9 +31,9 @@ public class RomanCalculator {
 
         // Check the string first before we try to convert it, exception will get thrown if it's invalid
         checkStringIsValid(stringToEvaluate);
+
         // Split the given string into tokens
-        List<String> numerals = new ArrayList<>(
-                Arrays.asList(stringToEvaluate.split("")));
+        List<String> numerals = new ArrayList<>(Arrays.asList(stringToEvaluate.split("")));
 
         // Iterate through the numerals
         for(String numeral : numerals) {
